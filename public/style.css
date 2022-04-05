@@ -1,0 +1,63 @@
+/*
+Theme Name: Ecommerce Lite 
+Theme URI: https://github.com/digitakeoff/ecommmerce-lite
+Author: Digitkeoff
+Author URI: https://digitakeoff.github.io
+Description: Our default theme for 2020 is designed to take full advantage of the flexibility of the block editor. Organizations and businesses have the ability to create dynamic landing pages with endless layouts using the group and column blocks. The centered content column and fine-tuned typography also makes it perfect for traditional blogs. Complete editor styles give you a good idea of what your content will look like, even before you publish. You can give your site a personal touch by changing the background colors and the accent color in the Customizer. The colors of all elements on your site are automatically calculated based on the colors you pick, ensuring a high, accessible color contrast for your visitors.
+Tags: blog, one-column, custom-background, custom-colors, custom-logo, custom-menu, editor-style, featured-images, footer-widgets, full-width-template, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready, block-styles, wide-blocks, accessibility-ready
+Version: 1.0
+Requires at least: 5.0
+Tested up to: 5.4
+Requires PHP: 7.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: ecommercelite
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+#app, html, body{
+    height: 100%;
+}
+/* #app{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+} */
+/* .router-link-active{
+    border-bottom: 2px solid rgb(245, 158, 11) !important;
+    padding-bottom: 5px;
+} */
+auth{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    padding: 14px;
+}
+
+[type="text"]:focus, [type="email"]:focus, [type="url"]:focus, [type="password"]:focus, [type="number"]:focus, [type="date"]:focus, [type="datetime-local"]:focus, [type="month"]:focus, [type="search"]:focus, [type="tel"]:focus, [type="time"]:focus, [type="week"]:focus, [multiple]:focus, textarea:focus, select:focus{ 
+    border-color: rgb(245, 158, 11) !important;
+    box-shadow: none !important;
+}
+
+.text-color-primary{
+    color:#c1a7c2ff !important
+}
+
+.bg-color-primary{
+    background-color:#c1a7c2ff !important
+}
+
+/* for account dashboard */
+.mt-top{
+    top: 52px
+}
+
+@media (max-width: 639.99px) {
+    .mt-top{
+        top: 103.133px
+    }
+}
